@@ -70,8 +70,10 @@ public class Base_Test {
 			driver = new FirefoxDriver();
 		} else if (browser.contains("edge")) {
 			driver = new EdgeDriver();
-		} else {
-			System.out.println("Enter Valid Browser Name");
+		}
+		else
+		{
+			System.out.println("Enter Valid Browser Name ");
 		}
 		sDriver = driver;
 		homePage = new Home_Page(driver);
